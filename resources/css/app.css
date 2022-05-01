@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.bg-indigo-500{
+    background-color: rgb(99 102 241);
+}
+
+.response {display: none;}
+.response.active {display: block;}
+
+.post {padding-top: 20px;padding-bottom: 20px;border-top: 1px solid #eee;}
+.post:first-child {padding-top: 0; border: 0;}
