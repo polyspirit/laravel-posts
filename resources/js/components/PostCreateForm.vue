@@ -74,7 +74,7 @@
                 Send
             </button>
         </div>
-        <div class="response" v-bind:class="{ active: response }">
+        <div class="response mt-4" v-bind:class="{ active: response }">
             {{ response }}
         </div>
     </form>
